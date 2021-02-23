@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: keil keil, keil, LIC=47GU5-GTAAT-VEIHA-18D26-XTR5Z-VI3WH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+D:\stm32cubemx\stm32f030_pwm\stm32f030_pwm\MDK-ARM\stm32f030_pwm.uvprojx
+Project File Date:  11/27/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'stm32f030_pwm'
+assembling startup_stm32f030x8.s...
+compiling stm32f0xx_it.c...
+compiling gpio.c...
+compiling main.c...
+../Src/main.c(69): warning:  #177-D: variable "pwm_i" was declared but never referenced
+  	uint16_t pwm_i =0;//占?毡?
+../Src/main.c(70): warning:  #177-D: variable "pwm_mode" was declared but never referenced
+  	uint16_t pwm_mode =0;//????模式,1为?黾?,2为????
+../Src/main.c(79): warning:  #177-D: variable "i" was declared but never referenced
+  	int i=0;
+../Src/main.c(80): warning:  #177-D: variable "i1" was declared but never referenced
+  	int i1=0;
+../Src/main.c: 4 warnings, 0 errors
+compiling tim.c...
+compiling stm32f0xx_hal_msp.c...
+compiling stm32f0xx_hal_rcc_ex.c...
+compiling stm32f0xx_hal.c...
+compiling stm32f0xx_hal_rcc.c...
+compiling stm32f0xx_hal_tim_ex.c...
+compiling stm32f0xx_hal_tim.c...
+compiling stm32f0xx_hal_i2c_ex.c...
+compiling stm32f0xx_hal_dma.c...
+compiling stm32f0xx_hal_gpio.c...
+compiling stm32f0xx_hal_cortex.c...
+compiling stm32f0xx_hal_i2c.c...
+compiling stm32f0xx_hal_pwr.c...
+compiling stm32f0xx_hal_pwr_ex.c...
+compiling stm32f0xx_hal_flash.c...
+compiling stm32f0xx_hal_flash_ex.c...
+compiling system_stm32f0xx.c...
+compiling stm32f0xx_hal_exti.c...
+linking...
+Program Size: Code=4312 RO-data=228 RW-data=16 ZI-data=1088  
+FromELF: creating hex file...
+"stm32f030_pwm\stm32f030_pwm.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_stm32f030_pwm
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
